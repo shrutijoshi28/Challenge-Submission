@@ -1,7 +1,8 @@
-/*
-params : chairs - array containing all chairs
-returns array containing survivor chair
-*/
+/**
+ * find survivor chair
+ * @param {Array} : chairs
+ * @return {Array} : chairs
+ */
 function getSurvivorChair(chairs){
     var iteration = 0;
     var skip = 0;
@@ -16,9 +17,14 @@ function getSurvivorChair(chairs){
     return chairs;
 }
 
-function addChairs(countOfChair){   
+/**
+ * add chairs to an array
+ * @param {Var} : countOfChair
+ * @return {Array} : chairs
+ */
+function addChairs(countOfChairs){   
     var chairs = []; 
-    for(var i = 1; i<= countOfChair; i++){
+    for(var i = 1; i<= countOfChairs; i++){
         chairs.push(i);
     }
     return chairs;
@@ -29,3 +35,4 @@ var arrayOfChairs = addChairs(100);
 var survivorChair = getSurvivorChair(arrayOfChairs);
 
 console.log(survivorChair[0]+ ' is the last chair.');
+
