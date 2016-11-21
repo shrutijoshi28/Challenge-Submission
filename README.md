@@ -14,7 +14,7 @@ Write a function that will determine, for N chairs, which chair is the "survivor
 
 Getting Started
 
-git clone git clone https://github.com/shrutijoshi28/challenge-submission.git
+git clone https://github.com/shrutijoshi28/challenge-submission.git
 
 Prerequisites
 
